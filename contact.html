@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iMarc Technologies</title>   
+    <!-- <script src="user.js" defer></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+    
+       <div class="nav-title">
+            <a href="index.html" class="h2">iMarc <span>Tech</span>nologies</h2></a>
+           
+            <div class="navlist-right">
+              <a href="index.html" id="nav-bar" >Home</a>
+             <a href="contact.html" id="nav-bar">Contact</a>
+             <a href="#" id="nav-bar">F.A.Q</a>
+             <a href="#" id="nav-bar">Careers/Experience</a>
+             <a href="#" id="nav-bar">Register</a>
+             <a href="#" id="nav-bar">Login</a>
+          </div>
+  
+       </div>
+   </nav> 
+
+   <div id="container">
+    <form action="action_page.php">
+  
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your full name.." required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email.." required>
+  
+      <label for="priority">Priority:</label>
+      <select id="Priority" name="Priority">
+        <option value="official">Official</option>
+        <option value="casual">Casual</option>
+        <option value="confidential">Confidential</option>
+      </select>
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:150px" required></textarea>
+  
+      <input type="submit" value="Submit" >
+  
+    </form>
+  </div>
+
+
+</body>
+</html>

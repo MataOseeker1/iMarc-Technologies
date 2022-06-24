@@ -9,6 +9,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
+    position: fixed;
    
 }
 
@@ -19,13 +20,28 @@
     float: left;
     text-decoration: none;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 39px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+.h3{
+    color: rgb(7, 7, 7);
+    background-color: rgb(208, 212, 214);
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 span{
     color: rgb(224, 167, 20);
+   
+}
+.h4{
+    color: rgb(224, 167, 20);
+    background-color: rgb(208, 212, 214); 
 }
 
 #nav-bar{
@@ -33,18 +49,33 @@ span{
         color: white;
         text-decoration: none;
         cursor: pointer;
-        border: 2px solid goldenrod;
+        
         margin-top: 10px;
         padding: 5px;
         border-radius: 15px;
         font-family: Arial, Helvetica, sans-serif;
 }
 
+#nav-bar1{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+    background-color: rgb(9, 8, 58);
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
 .navlist-right{
     float:right;
     margin-left: 300px;
     margin-top: 20px;
-    word-spacing: 15px;
+    word-spacing: 50px;
+   
 }
 
 .section{
@@ -52,16 +83,16 @@ span{
 }
 
 img{
-    margin-left: 150px;
+    margin-left: 20px;
     margin-top: 100px;
-    border-radius: 50px;
+    border-radius: 30px;
     float: left;
 }
 
 .text{
     float: left;
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 60px;
     font-size: 30px;
     color: white;
     
@@ -74,16 +105,16 @@ h1{
 
 
 .extra-text{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .contact{
     text-decoration: none;
-    border: 2px solid goldenrod;
-    background-color: goldenrod;
-    padding: 10px;
-    border-radius: 30px;
-    margin-left: 200px;
+   background-color: rgb(9, 8, 58);
+    padding: 13px;
+    border-radius: 10px;
+    margin-left: 80px;
+    color: white;
 }
 
 input[type=text], [type=email], select, textarea {
@@ -95,6 +126,8 @@ input[type=text], [type=email], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;  
+    color: white;
+    background-color: antiquewhite;
   }
 
 
@@ -112,7 +145,7 @@ input[type=text], [type=email], select, textarea {
     background-color: #467e01;
   }
 
-.container {
+#container {
     border-radius: 30px;
    color: white;
     padding: 30px;
@@ -123,4 +156,72 @@ input[type=text], [type=email], select, textarea {
     opacity: 0.9;
     font-size: 17px;
     
+  }
+
+  H1{
+      text-align: center;
+      color: #068053;
+  }
+
+  #footer-page{
+      background-color: rgb(208, 212, 214);
+      display: flex;
+      box-sizing: border-box;
+  }
+
+  #footer-text{
+      float: left;
+      margin-left: 300px;
+      background-color: rgb(208, 212, 214);
+      font-size: 20px;
+      margin-top: 10px;
+  }
+
+  .p1{
+    background-color:rgb(208, 212, 214);
+  }
+
+
+  /*styling the social media icons*/
+
+
+  .footer-div{
+    background-color:rgb(208, 212, 214);
+    margin-left: 400px;
+   
+  }
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-left: 50px;
+    border-radius: 6px;
+  }
+
+  .fa-facebook {
+    background: rgb(9, 8, 58);
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: rgb(9, 8, 58);
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: rgb(9, 8, 58);
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: rgb(9, 8, 58);
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: rgb(9, 8, 58);
+    color: white;
   }
